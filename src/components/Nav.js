@@ -4,18 +4,24 @@ import { Link } from 'react-router-dom'
 function Nav() {
     return(
      <div>
-         <ul>
-            <Link>
-                <li>Home</li>
+         <ul className="Nav-bar">
+            <Link to='/'>
+                <li className="Logo-link">CryptoApp</li>
             </Link>
-            <Link>
-                <li>Farm</li>
+            <Link to='/'>
+                <li className="Nav-link">Home</li>
             </Link>
-            <Link>
-                <li>Migrate</li>
+            <Link to='/dashboard'>
+                <li className="Nav-link">Dashboard</li>
             </Link>
-            <Link>
-                <li>FAQ</li>
+            <Link to='/farm'>
+                <li className="Nav-link">Farm</li>
+            </Link>
+            <Link to='/migrate'>
+                <li className="Nav-link">Migrate</li>
+            </Link>
+            <Link to='/faq'>
+                <li className="Nav-link">FAQ</li>
             </Link>
          </ul>
      </div>
