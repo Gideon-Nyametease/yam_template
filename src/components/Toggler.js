@@ -1,7 +1,5 @@
 import React from 'react'
 import { func, string } from 'prop-types'
-import { Card } from 'ui-neumorphism'
-// import 'ui-neumorphism/dist/index.css'
 import { ReactComponent as MoonIcon } from './images/moon.svg'
 import { ReactComponent as SunIcon } from './images/sunn.svg'
 import styled from "styled-components"
@@ -43,7 +41,7 @@ const ToggleContainer = styled.button`
 const Toggle = ({ theme, toggleTheme }) => {
     const isLight = theme === 'light';
     return (
-        <ToggleContainer onClick={toggleTheme} >
+        <ToggleContainer  onClick={toggleTheme} >
             <SunIcon />
             <MoonIcon />
         </ToggleContainer>
