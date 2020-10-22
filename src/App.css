@@ -2,7 +2,7 @@
   text-align: center;
   margin: 20px auto;
   width: 1000px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -58,7 +58,7 @@
 }
 
 .App-link {
-  color: #eeeeee;
+  color: linear-gradient(#dfe0e3, #4c4b4f);
 }
 
 @keyframes App-logo-spin {

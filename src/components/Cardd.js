@@ -9,8 +9,8 @@ const Cardd = ({ children }) => (
 
 
 const StyledCardd = styled.div`
-  border-radius: 30px;
-  box-shadow:  1px 1px 2px #ffffff, 2px 2px 2px #d2d2d2 inset;
+  border-radius: 30px; 
+  box-shadow: 1px 1px 0.9px ${({ theme }) => theme.shadowLight}, inset 1px 1px 0.9px ${({ theme }) => theme.shadowDark} ;
   display: flex;
   flex: 1;
   flex-direction: column;

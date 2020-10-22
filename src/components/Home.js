@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card } from 'ui-neumorphism'
+// import Graph from './Graph'
 import 'ui-neumorphism/dist/index.css'
 import { ReactComponent as HelloIcon } from './images/hello.svg'
 import Cardd from './Cardd.js'
@@ -18,7 +18,7 @@ function Home() {
 
             <Cardd>
                 <div className="middle">
-                    <p>There will be some information about the market here.</p>
+                    {/* <Graph/> */}
                 </div>
             </Cardd>
         </div>
